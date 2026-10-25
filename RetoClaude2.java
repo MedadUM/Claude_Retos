@@ -1,10 +1,9 @@
 import java.util.Scanner;
-
 public class RetoClaude2 {
     public static void main(String[] args) {
-        int nAbro = 60;
+        int nApro = 60;
         int cAlum = 0;
-        int a = 0;
+        int aApro = 0;
         double total = 0;
         Scanner dato = new Scanner(System.in);
         cAlum = dato.nextInt();
@@ -13,12 +12,11 @@ public class RetoClaude2 {
             int aNota = dato.nextInt();
             notas[i] = aNota;
             total += aNota;
-            if (notas[i] >= nAbro) {
-                a++;
+            if (notas[i] >= nApro) {
+                aApro++;
             }
 
         }
-        ;
 
         for (int j = 1; j < notas.length; j++) {
             int temp = 0;
@@ -31,7 +29,7 @@ public class RetoClaude2 {
             }
         }
         System.out.println("Promedio: " + (total / cAlum) + ", Mayor: " + notas[notas.length - 1] + ", Menor: "
-                + notas[0] + ", Aprobados: " + a);
+                + notas[0] + ", Aprobados: " + aApro);
         dato.close();
     }
 }
