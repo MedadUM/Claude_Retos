@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "RetoClaude2",
+            "request": "launch",
+            "mainClass": "RetoClaude2",
+            "projectName": "CLAUDE_RETOS_PROGRMACION_131682c9"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "RetoClaude1",
+            "request": "launch",
+            "mainClass": "RetoClaude1",
+            "projectName": "CLAUDE_RETOS_PROGRMACION_131682c9"
+        }
+    ]
+}
