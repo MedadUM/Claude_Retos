@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RetoClaude2copy",
+            "request": "launch",
+            "mainClass": "RetoClaude2copy",
+            "projectName": "CLAUDE_RETOS_PROGRMACION_131682c9"
+        },
+        {
+            "type": "java",
             "name": "RetoClaude2",
             "request": "launch",
             "mainClass": "RetoClaude2",
